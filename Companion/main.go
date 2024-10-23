@@ -25,7 +25,7 @@ func main() {
 	var frmHostname string
 	flag.StringVar(&frmHostname, "hostname", "localhost", "hostname of Ficsit Remote Monitoring webserver")
 	var frmPort int
-	flag.IntVar(&frmPort, "port", 8080, "port of Ficsit Remote Monitoring webserver")
+	flag.IntVar(&frmPort, "port", 8081, "port of Ficsit Remote Monitoring webserver")
 	var showMetrics bool
 	flag.BoolVar(&showMetrics, "ShowMetrics", false, "Show metrics and exit")
 	var noProm bool
